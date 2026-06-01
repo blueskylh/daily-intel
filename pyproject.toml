@@ -1,0 +1,11 @@
+[project]
+name = "daily-intel-900"
+version = "0.1.0"
+description = "A real evolving project with daily data collection and automation."
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0"
+]
+
+[project.scripts]
+daily-intel = "daily_intel_900.cli:main"
